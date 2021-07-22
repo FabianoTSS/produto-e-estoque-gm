@@ -4,7 +4,11 @@ import { Container } from './style';
 const Home: React.FC = () => {
   return (
     <Container>
-        <h1>Hellooo</h1>
+        <section>
+          <div>
+            
+          </div>
+        </section>
     </Container>
   );
 }
