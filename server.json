@@ -1,5 +1,12 @@
 {
-    "produtos": [
+    "products": [
+        {
+            "id" : 1,
+            "name" : "Iphone",
+            "price" : 5000
+        }
+    ],
+    "users": [
         {
             "id" : 1,
             "name" : "Iphone",
