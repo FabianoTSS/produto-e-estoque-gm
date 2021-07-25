@@ -28,10 +28,18 @@ const ShowProducts: React.FC = () => {
         <div className="main-products">
             { data.map( prod => (
               <div className="single-product" key={ prod.id }>
-                <img src={ prod.photo }/>
-                <h1>{ prod.name }</h1>
-                <p>{ prod.description }</p>
-                <p>{ prod.price }</p>
+                <div className="sp-img">
+                  <img src={ prod.photo }/>
+                </div>
+                <div>
+                  <h1>{ prod.name }</h1>
+                </div>
+                <div>
+                  <p>{ prod.description }</p>
+                </div>
+                <div>
+                  <p>{ prod.price }</p>
+                </div>
               </div>
             ))}
           </div>
