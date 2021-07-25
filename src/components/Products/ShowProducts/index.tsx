@@ -24,13 +24,13 @@ const ShowProducts: React.FC = () => {
 
   return (
     <Container>
-        <section>
+        <>
           { data.map( prod => (
             <div key={ prod.id }>
               { prod.name }
             </div>
           ))}
-        </section>
+        </>
     </Container>
   );
 }

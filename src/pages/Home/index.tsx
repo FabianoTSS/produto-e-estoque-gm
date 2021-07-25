@@ -8,6 +8,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <ShowProducts />
+      <ShowProducts />
     </Container>
   );
 }
