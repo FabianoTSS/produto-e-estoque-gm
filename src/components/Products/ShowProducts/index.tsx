@@ -29,7 +29,7 @@ const ShowProducts: React.FC = () => {
             { data.map( prod => (
               <div className="single-product" key={ prod.id }>
                 <div className="sp-img">
-                  <img src={ prod.photo }/>
+                  <img src={ prod.photo } alt="Foto do Produto"/>
                 </div>
                 <div>
                   <h1>{ prod.name }</h1>
