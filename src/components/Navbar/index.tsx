@@ -5,9 +5,14 @@ import Logotipo from '../../imagens/logotipo.png';
 
 const Navbar: React.FC = () => {
   return(
-      <>
-        <img src={Logotipo}/>
-      </>
+      <header>
+        <img src={Logotipo} alt="FABIANUS LOGOTIPO"/>
+        <nav>
+            <a>Homepage</a>
+            <a>Produtos</a>
+            <a>Cadastre-se</a>
+        </nav>
+      </header>
   );
 }
 
