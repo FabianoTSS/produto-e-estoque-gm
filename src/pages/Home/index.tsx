@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container } from './style';
-import ShowProducts from '../../components/Products/ShowProducts';
 import Navbar from '../../components/Navbar'
+import ShowProducts from '../../components/Products/ShowProducts';
+
 
 
 const Home: React.FC = () => {

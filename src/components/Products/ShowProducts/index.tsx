@@ -25,11 +25,16 @@ const ShowProducts: React.FC = () => {
   return (
     <Container>
         <>
-          { data.map( prod => (
-            <div key={ prod.id }>
-              { prod.name }
-            </div>
-          ))}
+        <div className="main-products">
+            { data.map( prod => (
+              <div className="single-product" key={ prod.id }>
+                <img src={ prod.photo }/>
+                <h1>{ prod.name }</h1>
+                <p>{ prod.description }</p>
+                <p>{ prod.price }</p>
+              </div>
+            ))}
+          </div>
         </>
     </Container>
   );

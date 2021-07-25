@@ -3,17 +3,17 @@
         {
             "id" : 1,
             "name" : "Iphone",
-            "photo" : "string",
-            "description": "string",
-            "price" : 5000
+            "photo" : "https://http2.mlstatic.com/D_NQ_NP_635522-MLA46093213279_052021-O.jpg",
+            "description": "Memória Ram 1MB, SSD de 1024Kb, Processador Xiaomi de 0,5 Cores, Telefone Muito Poderoso",
+            "price" : 4999.99
 
         },
         {
             "id" : 2,
-            "name" : "Iphone",
-            "photo" : "string",
-            "description": "string",
-            "price" : 5000
+            "name" : "Samsung Galaxy A12",
+            "photo" : "https://www.s91loja.net/wp-content/uploads/2021/03/Samsung-Galaxy-A12-Adesivo-Skin-Pelicula-Protetora-Brilho-Cor-Vermelho.jpg",
+            "description": "Memória Ram 300GB, SSD de 1TB, Processador Xiaomi de 500 Cores, Telefone Muito Poderoso",
+            "price" : 2999.99
 
         }
     ]
