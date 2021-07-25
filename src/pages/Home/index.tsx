@@ -7,9 +7,7 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-        <section>
-          <ShowProducts />
-        </section>
+      <ShowProducts />
     </Container>
   );
 }
