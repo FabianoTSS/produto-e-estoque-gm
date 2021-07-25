@@ -1,3 +1,4 @@
+//SERVE PARA RENDERIZAR O PROJETO TODO
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './globalStyle';

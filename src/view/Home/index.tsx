@@ -4,8 +4,16 @@ import { Container } from './style';
 
 import api from '../../services/api';
 
+interface IProduct{
+  id: number;
+  name: string;
+  photo: string;
+  description: string;
+  price: number;
+}
+
 const Home: React.FC = () => {
-  const [ data, setData ] = useState ([]);
+  const [ data, setData ] = useState<IProduct[]> ([]);
   useEffect(() =>{
     api.get('').then(
       response => {
@@ -13,12 +21,15 @@ const Home: React.FC = () => {
       }
     )
   }, [])
+
   return (
     <Container>
         <section>
-          <div>
-            
-          </div>
+          { data.map( prod => (
+            <div key={ prod.id }>
+              { prod.name }
+            </div>
+          ))}
         </section>
     </Container>
   );

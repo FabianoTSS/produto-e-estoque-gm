@@ -1,16 +1,20 @@
 {
-    "products": [
+    "produtos": [
         {
             "id" : 1,
             "name" : "Iphone",
+            "photo" : "string",
+            "description": "string",
             "price" : 5000
-        }
-    ],
-    "users": [
+
+        },
         {
-            "id" : 1,
+            "id" : 2,
             "name" : "Iphone",
+            "photo" : "string",
+            "description": "string",
             "price" : 5000
+
         }
     ]
 }
