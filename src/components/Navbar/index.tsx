@@ -8,9 +8,9 @@ const Navbar: React.FC = () => {
       <header>
         <img src={Logotipo} alt="FABIANUS LOGOTIPO"/>
         <nav>
-            <a>Homepage</a>
-            <a>Produtos</a>
-            <a>Cadastre-se</a>
+            <a href="www.google.com">Homepage</a>
+            <a href="www.google.com">Produtos</a>
+            <a href="www.google.com">Cadastre-se</a>
         </nav>
       </header>
   );
