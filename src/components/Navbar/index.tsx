@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <nav>
             <a href="www.google.com">Homepage</a>
             <a href="www.google.com">Produtos</a>
-            <a href="www.google.com">Cadastre-se</a>
+            <a href="RegisterUser">Cadastre-se</a>
         </nav>
       </header>
   );
