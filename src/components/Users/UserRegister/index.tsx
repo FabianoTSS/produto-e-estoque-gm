@@ -4,14 +4,16 @@ import React from "react";
 
 const UserRegister: React.FC = () => {
   return( 
-      <>
-    <h1>Venha conhecer nossos produtos.</h1>
-    <h2>Cadastre e mantenha-se atualizado.</h2>
+    <>
+    <h1>Cadastro</h1>
     <form id="cadastro">
-        <input type="text" placeholder="NOME" id="nome" />
-        <input type="text" placeholder="E-MAIL" id="email" />
-        <input type="submit" placeholder="CADASTRAR" />
+        <input type="text" placeholder="Nome" id="nome" />
+        <input type="text" placeholder="E-Mail" id="email" />
+        <input type="password" placeholder="Minha Senha" id="password" />
+        <input type="text" placeholder="E-Mail" id="email" />
+        <input type="submit" placeholder="Cadastrar" />
     </form>
+    <a href="/">Home Page</a>
     </>
     );
 }
