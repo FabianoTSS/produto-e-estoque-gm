@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { Container } from './style';
 
-import api from '../../services/api';
+import api from '../../../services/api';
 
 interface IProduct{
   id: number;
@@ -12,7 +12,7 @@ interface IProduct{
   price: number;
 }
 
-const Home: React.FC = () => {
+const ShowProducts: React.FC = () => {
   const [ data, setData ] = useState<IProduct[]> ([]);
   useEffect(() =>{
     api.get('').then(
@@ -35,4 +35,4 @@ const Home: React.FC = () => {
   );
 }
 
-export default Home;
+export default ShowProducts;
